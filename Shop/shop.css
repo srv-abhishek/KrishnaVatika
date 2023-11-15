@@ -1,0 +1,80 @@
+img{
+    width: 90%;
+    margin: 5%;
+}
+.contain{
+    display: flex;
+}
+.block40{
+    margin-top: 5%;
+    flex: left;
+    width: 40%;
+    height: fit-content;
+    background: #ddd;
+}
+.block60{
+    width: 60%;
+    margin: 5%;
+}
+.pro_title{
+    font-weight: bold;
+    font-size: x-large;
+}
+rating{
+    font-size: small;
+    background: goldenrod;
+    size: 10px 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+pro_price{
+    font-size: x-large;
+    font-weight: bold;
+    /* color: green; */
+}
+old_price{
+    text-decoration: line-through;
+    font-size:medium;
+    color: black;
+    font-weight: bold;
+}
+theme_color{
+    color: #B8860B;
+}
+.offers{
+    padding: ;
+}
+form{
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 20px;
+}
+label{
+    font-size: large;
+}
+input {
+    width: 100%;
+    background-color:#eee;
+    font-size: large;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+}  
+input[type=submit]{
+    border: none;
+    margin-top: 20px;
+    background-color:#222222;
+    color:white;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+select{
+    width: 50%;
+    background-color:#eee;
+    font-size: large;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+}
